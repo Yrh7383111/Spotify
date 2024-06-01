@@ -29,6 +29,7 @@
 		D6EFAAC32C0ACA6B00E6570B /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EFAAC22C0ACA6B00E6570B /* AudioTrack.swift */; };
 		D6EFAAC52C0ACA7900E6570B /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EFAAC42C0ACA7900E6570B /* Artist.swift */; };
 		D6EFAAC72C0ACA8200E6570B /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EFAAC62C0ACA8200E6570B /* UserProfile.swift */; };
+		D6EFAAC92C0AD86000E6570B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D6EFAAC82C0AD86000E6570B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		D6EFAAC22C0ACA6B00E6570B /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		D6EFAAC42C0ACA7900E6570B /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		D6EFAAC62C0ACA8200E6570B /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		D6EFAAC82C0AD86000E6570B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		D611358A2C0AA6B40069131F = {
 			isa = PBXGroup;
 			children = (
+				D6EFAAC82C0AD86000E6570B /* README.md */,
 				D61135952C0AA6B40069131F /* Spotify */,
 				D61135942C0AA6B40069131F /* Products */,
 			);
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6EFAAC92C0AD86000E6570B /* README.md in Resources */,
 				D61135A02C0AA6B50069131F /* Assets.xcassets in Resources */,
 				D61135A32C0AA6B50069131F /* Base in Resources */,
 			);
