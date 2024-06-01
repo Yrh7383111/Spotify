@@ -30,6 +30,7 @@
 		D6EFAAC52C0ACA7900E6570B /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EFAAC42C0ACA7900E6570B /* Artist.swift */; };
 		D6EFAAC72C0ACA8200E6570B /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EFAAC62C0ACA8200E6570B /* UserProfile.swift */; };
 		D6EFAAC92C0AD86000E6570B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D6EFAAC82C0AD86000E6570B /* README.md */; };
+		D6EFAACB2C0BC74C00E6570B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EFAACA2C0BC74C00E6570B /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		D6EFAAC42C0ACA7900E6570B /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		D6EFAAC62C0ACA8200E6570B /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		D6EFAAC82C0AD86000E6570B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6EFAACA2C0BC74C00E6570B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				D61135962C0AA6B40069131F /* AppDelegate.swift */,
 				D61135982C0AA6B40069131F /* SceneDelegate.swift */,
 				D611359F2C0AA6B50069131F /* Assets.xcassets */,
+				D6EFAACA2C0BC74C00E6570B /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				D6EFAAB12C0AC9DB00E6570B /* SettingViewController.swift in Sources */,
 				D61135972C0AA6B40069131F /* AppDelegate.swift in Sources */,
 				D6EFAAC72C0ACA8200E6570B /* UserProfile.swift in Sources */,
+				D6EFAACB2C0BC74C00E6570B /* Extensions.swift in Sources */,
 				D6EFAAB72C0AC9FC00E6570B /* PlaylistViewController.swift in Sources */,
 				D6EFAAC52C0ACA7900E6570B /* Artist.swift in Sources */,
 				D6EFAAA92C0AC98D00E6570B /* LibraryViewController.swift in Sources */,
