@@ -102,11 +102,11 @@
 		D611358A2C0AA6B40069131F = {
 			isa = PBXGroup;
 			children = (
-				D6EFAAC82C0AD86000E6570B /* README.md */,
 				D61135952C0AA6B40069131F /* Spotify */,
 				D61135942C0AA6B40069131F /* Products */,
 				39200A00EAA3928E68B30413 /* Pods */,
 				24A7B8CF8110F7505A709311 /* Frameworks */,
+				D6EFAAC82C0AD86000E6570B /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,12 +121,12 @@
 		D61135952C0AA6B40069131F /* Spotify */ = {
 			isa = PBXGroup;
 			children = (
-				D61135AA2C0AA7BC0069131F /* Views */,
+				D61135AF2C0AA8110069131F /* Resources */,
+				D61135AE2C0AA80C0069131F /* Managers */,
 				D61135AC2C0AA7C80069131F /* Models */,
+				D61135AA2C0AA7BC0069131F /* Views */,
 				D61135AD2C0AA7D00069131F /* ViewModels */,
 				D61135AB2C0AA7C00069131F /* Controllers */,
-				D61135AE2C0AA80C0069131F /* Managers */,
-				D61135AF2C0AA8110069131F /* Resources */,
 				D61135A42C0AA6B50069131F /* Info.plist */,
 			);
 			path = Spotify;
