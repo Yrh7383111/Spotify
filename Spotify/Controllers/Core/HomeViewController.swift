@@ -67,9 +67,7 @@ class HomeViewController: UIViewController {
         
         fetchData()
     }
-
     
-    // MARK: - Public
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         collectionView.frame = view.bounds
@@ -219,6 +217,8 @@ class HomeViewController: UIViewController {
     }
 }
 
+
+// MARK: - Extension
 extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         let type = sections[section]
@@ -270,6 +270,33 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
                 return cell
         }
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        collectionView.deselectItem(at: indexPath, animated: true)
+//        HapticsManager.shared.vibrateForSelection()
+        let section = sections[indexPath.section]
+        switch section {
+        case .featuredPlaylists:
+            let playlist = playlists[indexPath.row]
+            let vc = PlaylistViewController(playlist: playlist)
+            
+            vc.title = playlist.name
+            vc.navigationItem.largeTitleDisplayMode = .never
+            navigationController?.pushViewController(vc, animated: true)
+        case .newReleases:
+            let album = newAlbums[indexPath.row]
+            let vc = AlbumViewController(album: album)
+            
+            vc.title = album.name
+            vc.navigationItem.largeTitleDisplayMode = .never
+            navigationController?.pushViewController(vc, animated: true)
+        case .recommendedTracks:
+            let track = tracks[indexPath.row]
+//            
+//            PlaybackPresenter.shared.startPlayback(from: self, track: track)
+        }
+    }
+
 
     static func createSectionLayout(section: Int) -> NSCollectionLayoutSection {
         let supplementaryViews = [
