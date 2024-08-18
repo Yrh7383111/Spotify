@@ -131,7 +131,7 @@ extension SearchViewController: SearchResultsViewControllerDelegate {
 //            PlaybackPresenter.shared.startPlayback(
 //                from: self, track: model
 //            )
-            print(".track")
+            break
         case .playlist(let model):
             let vc = PlaylistViewController(playlist: model)
             
