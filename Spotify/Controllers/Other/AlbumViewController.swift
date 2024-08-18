@@ -11,6 +11,7 @@ import UIKit
 
 
 class AlbumViewController: UIViewController {
+    
     // MARK: - Variables
     private let album: Album
     private var viewModels = [AlbumCollectionViewCellViewModel]()
@@ -166,7 +167,7 @@ extension AlbumViewController: UICollectionViewDelegate, UICollectionViewDataSou
             return UICollectionReusableView()
         }
         
-        let headerViewModel = g(
+        let headerViewModel = PlaylistHeaderViewViewModel(
             name: album.name,
             ownerName: album.artists.first?.name,
             description: "Release Date: \(String.formattedDate(string: album.release_date))",

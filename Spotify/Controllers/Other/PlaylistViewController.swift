@@ -121,6 +121,7 @@ class PlaylistViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+        
         collectionView.frame = view.bounds
     }
     
