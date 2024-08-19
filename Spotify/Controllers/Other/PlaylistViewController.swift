@@ -148,7 +148,7 @@ class PlaylistViewController: UIViewController {
         let touchPoint = gesture.location(in: collectionView)
         guard let indexPath = collectionView.indexPathForItem(at: touchPoint) else {
             return
-            225817
+            
         }
         let trackToDelete = tracks[indexPath.row]
         let actionSheet = UIAlertController(
@@ -257,6 +257,7 @@ extension PlaylistViewController: UICollectionViewDelegate, UICollectionViewData
 
 extension PlaylistViewController: PlaylistHeaderCollectionReusableViewDelegate {
     func playlistHeaderCollectionReusableViewDidTapPlayAll(_ header: PlaylistHeaderCollectionReusableView) {
+        print(tracks)
         PlaybackPresenter.shared.startPlayback(from: self, tracks: tracks)
     }
 }
