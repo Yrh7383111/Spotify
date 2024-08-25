@@ -27,6 +27,13 @@
 		D612B9A42C7AAFE400A4A1C8 /* LibraryAlbumsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612B9A32C7AAFE400A4A1C8 /* LibraryAlbumsResponse.swift */; };
 		D612B9A62C7AB03E00A4A1C8 /* LibraryToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612B9A52C7AB03E00A4A1C8 /* LibraryToggleView.swift */; };
 		D612B9A82C7AE4BB00A4A1C8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612B9A72C7AE4BB00A4A1C8 /* SettingsViewController.swift */; };
+		D612B9B12C7AF2C000A4A1C8 /* Playlist.png in Resources */ = {isa = PBXBuildFile; fileRef = D612B9AA2C7AF2C000A4A1C8 /* Playlist.png */; };
+		D612B9B22C7AF2C000A4A1C8 /* Search Result.png in Resources */ = {isa = PBXBuildFile; fileRef = D612B9AB2C7AF2C000A4A1C8 /* Search Result.png */; };
+		D612B9B32C7AF2C000A4A1C8 /* Browse.png in Resources */ = {isa = PBXBuildFile; fileRef = D612B9AC2C7AF2C000A4A1C8 /* Browse.png */; };
+		D612B9B42C7AF2C000A4A1C8 /* Welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = D612B9AD2C7AF2C000A4A1C8 /* Welcome.png */; };
+		D612B9B52C7AF2C000A4A1C8 /* Sign In.png in Resources */ = {isa = PBXBuildFile; fileRef = D612B9AE2C7AF2C000A4A1C8 /* Sign In.png */; };
+		D612B9B62C7AF2C000A4A1C8 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = D612B9AF2C7AF2C000A4A1C8 /* Search.png */; };
+		D612B9B72C7AF2C000A4A1C8 /* Album.png in Resources */ = {isa = PBXBuildFile; fileRef = D612B9B02C7AF2C000A4A1C8 /* Album.png */; };
 		D63E0C4A2C331EF6008D8E34 /* NewReleasesCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63E0C492C331EF6008D8E34 /* NewReleasesCellViewModel.swift */; };
 		D63E0C4C2C331F46008D8E34 /* RecommendedTrackCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63E0C4B2C331F46008D8E34 /* RecommendedTrackCellViewModel.swift */; };
 		D63E0C4E2C331F67008D8E34 /* FeaturedPlaylistCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63E0C4D2C331F67008D8E34 /* FeaturedPlaylistCellViewModel.swift */; };
@@ -98,6 +105,13 @@
 		D612B9A32C7AAFE400A4A1C8 /* LibraryAlbumsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryAlbumsResponse.swift; sourceTree = "<group>"; };
 		D612B9A52C7AB03E00A4A1C8 /* LibraryToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryToggleView.swift; sourceTree = "<group>"; };
 		D612B9A72C7AE4BB00A4A1C8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D612B9AA2C7AF2C000A4A1C8 /* Playlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Playlist.png; path = ../../../../Playlist.png; sourceTree = "<group>"; };
+		D612B9AB2C7AF2C000A4A1C8 /* Search Result.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Search Result.png"; path = "../../../../Search Result.png"; sourceTree = "<group>"; };
+		D612B9AC2C7AF2C000A4A1C8 /* Browse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Browse.png; path = ../../../../Browse.png; sourceTree = "<group>"; };
+		D612B9AD2C7AF2C000A4A1C8 /* Welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Welcome.png; path = ../../../../Welcome.png; sourceTree = "<group>"; };
+		D612B9AE2C7AF2C000A4A1C8 /* Sign In.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sign In.png"; path = "../../../../Sign In.png"; sourceTree = "<group>"; };
+		D612B9AF2C7AF2C000A4A1C8 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Search.png; path = ../../../../Search.png; sourceTree = "<group>"; };
+		D612B9B02C7AF2C000A4A1C8 /* Album.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Album.png; path = ../../../../Album.png; sourceTree = "<group>"; };
 		D63E0C492C331EF6008D8E34 /* NewReleasesCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesCellViewModel.swift; sourceTree = "<group>"; };
 		D63E0C4B2C331F46008D8E34 /* RecommendedTrackCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTrackCellViewModel.swift; sourceTree = "<group>"; };
 		D63E0C4D2C331F67008D8E34 /* FeaturedPlaylistCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistCellViewModel.swift; sourceTree = "<group>"; };
@@ -178,6 +192,7 @@
 		D611358A2C0AA6B40069131F = {
 			isa = PBXGroup;
 			children = (
+				D612B9A92C7AF23D00A4A1C8 /* Visualizations */,
 				D61135952C0AA6B40069131F /* Spotify */,
 				D61135942C0AA6B40069131F /* Products */,
 				39200A00EAA3928E68B30413 /* Pods */,
@@ -306,6 +321,20 @@
 			path = Library;
 			sourceTree = "<group>";
 		};
+		D612B9A92C7AF23D00A4A1C8 /* Visualizations */ = {
+			isa = PBXGroup;
+			children = (
+				D612B9B02C7AF2C000A4A1C8 /* Album.png */,
+				D612B9AC2C7AF2C000A4A1C8 /* Browse.png */,
+				D612B9AA2C7AF2C000A4A1C8 /* Playlist.png */,
+				D612B9AB2C7AF2C000A4A1C8 /* Search Result.png */,
+				D612B9AF2C7AF2C000A4A1C8 /* Search.png */,
+				D612B9AE2C7AF2C000A4A1C8 /* Sign In.png */,
+				D612B9AD2C7AF2C000A4A1C8 /* Welcome.png */,
+			);
+			path = Visualizations;
+			sourceTree = "<group>";
+		};
 		D63E0C4F2C3322E4008D8E34 /* Browse */ = {
 			isa = PBXGroup;
 			children = (
@@ -422,7 +451,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6EFAAC92C0AD86000E6570B /* README.md in Resources */,
+				D612B9B72C7AF2C000A4A1C8 /* Album.png in Resources */,
+				D612B9B62C7AF2C000A4A1C8 /* Search.png in Resources */,
+				D612B9B32C7AF2C000A4A1C8 /* Browse.png in Resources */,
+				D612B9B12C7AF2C000A4A1C8 /* Playlist.png in Resources */,
+				D612B9B22C7AF2C000A4A1C8 /* Search Result.png in Resources */,
 				D61135A02C0AA6B50069131F /* Assets.xcassets in Resources */,
+				D612B9B42C7AF2C000A4A1C8 /* Welcome.png in Resources */,
+				D612B9B52C7AF2C000A4A1C8 /* Sign In.png in Resources */,
 				D61135A32C0AA6B50069131F /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
