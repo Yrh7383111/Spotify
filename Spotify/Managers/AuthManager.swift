@@ -82,7 +82,6 @@ final class AuthManager {
         task.resume()
     }
     
-    
     public func withValidToken(completion: @escaping (String) -> Void) {
         guard !refreshingToken else {
             onRefreshBlocks.append(completion)
@@ -159,6 +158,23 @@ final class AuthManager {
         }
         
         task.resume()
+    }
+    
+    public func signOut(completion: (Bool) -> Void) {
+        UserDefaults.standard.setValue(
+            nil,
+            forKey: "access_token"
+        )
+        UserDefaults.standard.setValue(
+            nil,
+            forKey: "refresh_token"
+        )
+        UserDefaults.standard.setValue(
+            nil,
+            forKey: "expirationDate"
+        )
+
+        completion(true)
     }
     
     

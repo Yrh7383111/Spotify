@@ -15,7 +15,6 @@ class AlbumTrackCollectionViewCell: UICollectionViewCell {
     static let identifier = "AlbumTrackCollectionViewCell"
 
 
-
     // MARK: - Constructor
     override init(frame: CGRect) {
         super.init(frame: frame)

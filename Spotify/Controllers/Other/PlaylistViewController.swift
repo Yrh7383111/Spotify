@@ -11,10 +11,13 @@ import UIKit
 
 
 class PlaylistViewController: UIViewController {
+
     // MARK: - Variables
     private let playlist: Playlist
     private var viewModels = [RecommendedTrackCellViewModel]()
     private var tracks = [AudioTrack]()
+    
+    public var isOwner = false
     
     private let collectionView = UICollectionView(
         frame: .zero,
@@ -257,7 +260,6 @@ extension PlaylistViewController: UICollectionViewDelegate, UICollectionViewData
 
 extension PlaylistViewController: PlaylistHeaderCollectionReusableViewDelegate {
     func playlistHeaderCollectionReusableViewDidTapPlayAll(_ header: PlaylistHeaderCollectionReusableView) {
-        print(tracks)
         PlaybackPresenter.shared.startPlayback(from: self, tracks: tracks)
     }
 }
