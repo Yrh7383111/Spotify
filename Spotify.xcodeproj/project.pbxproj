@@ -100,6 +100,7 @@
 		D612B9A52C7AB03E00A4A1C8 /* LibraryToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryToggleView.swift; sourceTree = "<group>"; };
 		D612B9A72C7AE4BB00A4A1C8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D612B9C12C7AF3D200A4A1C8 /* Welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Welcome.png; path = ../../../Welcome.png; sourceTree = "<group>"; };
+		D612B9C32C7AF40500A4A1C8 /* Welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Welcome.png; sourceTree = "<group>"; };
 		D63E0C492C331EF6008D8E34 /* NewReleasesCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesCellViewModel.swift; sourceTree = "<group>"; };
 		D63E0C4B2C331F46008D8E34 /* RecommendedTrackCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTrackCellViewModel.swift; sourceTree = "<group>"; };
 		D63E0C4D2C331F67008D8E34 /* FeaturedPlaylistCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistCellViewModel.swift; sourceTree = "<group>"; };
@@ -186,6 +187,7 @@
 				39200A00EAA3928E68B30413 /* Pods */,
 				24A7B8CF8110F7505A709311 /* Frameworks */,
 				D6EFAAC82C0AD86000E6570B /* README.md */,
+				D612B9C32C7AF40500A4A1C8 /* Welcome.png */,
 			);
 			sourceTree = "<group>";
 		};
